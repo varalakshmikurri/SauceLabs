@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T17:21:29 GMT-04:00" name="Sause labs test execution Suite" finished-at="2023-03-20T17:22:09 GMT-04:00" duration-ms="40397">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T17:21:29 GMT-04:00" name="Sause Test on chrome" finished-at="2023-03-20T17:21:52 GMT-04:00" duration-ms="22894">
+      <class name="SauseLabsTestExecution.SauseLabsTestExecution.SauseTest">
+        <test-method signature="fireFoxTest(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:1, instance:SauseLabsTestExecution.SauseLabsTestExecution.SauseTest@563f38c4]" started-at="2023-03-20T17:21:29 GMT-04:00" name="fireFoxTest" finished-at="2023-03-20T17:21:43 GMT-04:00" duration-ms="13790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SauseLabsTestExecution.SauseLabsTestExecution.SauseTest.fireFoxTest(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxTest -->
+        <test-method signature="chromeTest(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:2, instance:SauseLabsTestExecution.SauseLabsTestExecution.SauseTest@563f38c4]" started-at="2023-03-20T17:21:43 GMT-04:00" name="chromeTest" finished-at="2023-03-20T17:21:52 GMT-04:00" duration-ms="9012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SauseLabsTestExecution.SauseLabsTestExecution.SauseTest.chromeTest(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+      </class> <!-- SauseLabsTestExecution.SauseLabsTestExecution.SauseTest -->
+    </test> <!-- Sause Test on chrome -->
+    <test started-at="2023-03-20T17:21:29 GMT-04:00" name="Sause Test on Firefox" finished-at="2023-03-20T17:22:09 GMT-04:00" duration-ms="40397">
+      <class name="SauseLabsTestExecution.SauseLabsTestExecution.SauseTest">
+        <test-method signature="fireFoxTest(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:1, instance:SauseLabsTestExecution.SauseLabsTestExecution.SauseTest@7d4f9aae]" started-at="2023-03-20T17:21:29 GMT-04:00" name="fireFoxTest" finished-at="2023-03-20T17:21:49 GMT-04:00" duration-ms="19880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SauseLabsTestExecution.SauseLabsTestExecution.SauseTest.fireFoxTest(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFoxTest -->
+        <test-method signature="chromeTest(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:2, instance:SauseLabsTestExecution.SauseLabsTestExecution.SauseTest@7d4f9aae]" started-at="2023-03-20T17:21:49 GMT-04:00" name="chromeTest" finished-at="2023-03-20T17:22:09 GMT-04:00" duration-ms="20398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SauseLabsTestExecution.SauseLabsTestExecution.SauseTest.chromeTest(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.net.MalformedURLException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+      </class> <!-- SauseLabsTestExecution.SauseLabsTestExecution.SauseTest -->
+    </test> <!-- Sause Test on Firefox -->
+  </suite> <!-- Sause labs test execution Suite -->
+</testng-results>

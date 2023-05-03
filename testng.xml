@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sause labs test execution Suite" thread-count="2" parallel="tests" verbose="2">
+  <test name="Sause Test on Firefox">
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="platform" value="windows 11"></parameter>
+    <classes>
+      <class name="SauseLabsTestExecution.SauseLabsTestExecution.SauseTest"/>
+    </classes>
+   </test>
+
+ <test name="Sause Test on chrome">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="platform" value="macOS 10.15"></parameter>
+    <classes>
+      <class name="SauseLabsTestExecution.SauseLabsTestExecution.SauseTest"/>
+    </classes>
+ </test>
+</suite> <!-- Suite -->
+  
